@@ -7,7 +7,7 @@ import time
 
 
 
-@pytest.mark.smoke
+
 def test_yandex_translate(browser):
     pageMain = mainPage(browser)
     pageMain.go_to_site()
