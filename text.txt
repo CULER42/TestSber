@@ -1,0 +1,20 @@
+status fail https://www.wikipedia.org/ 200
+status fail https://www.youtube.com/ 200
+status fail https://yandex.ru/ 200
+Not canonical https://www.wikipedia.org/
+Not canonical https://yandex.ru/
+status fail https://www.wikipedia.org/ 200
+status fail https://www.youtube.com/ 200
+status fail https://yandex.ru/ 200
+Not canonical https://www.wikipedia.org/
+Not canonical https://yandex.ru/
+Not canonical https://www.wikipedia.org/
+Not canonical https://yandex.ru/
+Not canonical https://www.wikipedia.org/
+Not canonical https://yandex.ru/
+Not canonical https://www.wikipedia.org/
+Not canonical https://www.wikipedia.org/
+Not canonical https://yandex.ru/
+Not canonical https://www.google.ru/
+Not canonical https://www.wikipedia.org/
+Not canonical https://yandex.ru/
