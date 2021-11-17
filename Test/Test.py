@@ -1,4 +1,4 @@
-from html_req import httml_req
+import httml_req
 import pytest
 
 
