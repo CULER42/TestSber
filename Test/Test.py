@@ -3,7 +3,7 @@ import pytest
 
 
 @pytest.mark.parametrize('URL',[('https://www.wikipedia.org/'),('https://www.youtube.com/'),('https://yandex.ru/')])
-def test_open_door_work_camera_events(URL):
+def test_status_code_site(URL):
         get_status_site = httml_req.get_status_site(URL)
         try:
             assert get_status_site == 200
