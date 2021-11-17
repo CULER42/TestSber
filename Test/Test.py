@@ -19,7 +19,7 @@ def test_open_door_work_camera_events(URL):
 def test_canonical(URL):
         get_cannonical_site = httml_req.get_canonical(URL)
         try:
-            assert get_cannonical_site == 'canonical'
+            assert get_cannonical_site == True
         except AssertionError:
             with pytest.raises(AssertionError):
                 with open('../text.txt', 'a') as f:
