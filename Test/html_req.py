@@ -12,7 +12,7 @@ def get_canonical(*URL):
         html = HTMLSession()
         get_url = html.get(URL)
         links = get_url.html.find('link')
-        cannonical = False
+        cannonical = None
         for i in range(len(links)):
           if links[i].attrs["rel"][0] == 'canonical':
             cannonical = True
