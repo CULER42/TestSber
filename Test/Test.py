@@ -11,7 +11,7 @@ def test_open_door_work_camera_events(URL):
             with pytest.raises(AssertionError):
                 with open ('../text.txt', 'a') as f:
                     f.write('status fail ' + URL + ' ' + str(get_status_site) + '\n')
-                    f.close()
+                   
 
 
 
@@ -24,7 +24,7 @@ def test_canonical(URL):
             with pytest.raises(AssertionError):
                 with open('../text.txt', 'a') as f:
                     f.write('Not canonical ' + URL + '\n')
-                    f.close()
+                    
 
 
 
